@@ -9,3 +9,6 @@
   padding: 0 10px;
   margin: 0 auto;
 }
+.header__inner {
+  text-transform: uppercase;
+}

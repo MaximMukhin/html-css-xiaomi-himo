@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
 ul {
   padding: 0;
   margin: 0;
@@ -17,6 +13,20 @@ ul {
 li {
   padding-left: 0;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #131313;
+}
+
 .container {
   max-width: 1220px;
   padding: 0 10px;
@@ -25,10 +35,10 @@ li {
 
 .header__inner {
   display: flex;
-    justify-content: space-between;
-    align-items: center;
-  text-transform: uppercase;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .munu {
   margin-left: 70px;
 }
@@ -37,6 +47,11 @@ li {
   display: flex;
 }
 
+.menu__list {}
+
 .menu__item {}
 
-.menu__list {}
+.menu__link {
+  text-transform: uppercase;
+  padding: 0 20px;
+}

@@ -55,5 +55,11 @@ body {
 
 .menu__link {
   text-transform: uppercase;
-  padding: 0 20px;
+  padding: 43px 20px;
+  transition: all 0.5s;
+}
+
+.menu__link:hover {
+  background-color: #131313;
+  color: #fff;
 }

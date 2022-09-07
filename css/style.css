@@ -94,5 +94,19 @@ color: #6F6F6F;
 }
 
 .bike__text {
+  max-width: 420px;
+margin-bottom: 20px;
+}
 
+.bike__link {
+  margin-top: 80px;
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: #131313;
+  padding: 28px 81px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+  text-transform: uppercase;
 }

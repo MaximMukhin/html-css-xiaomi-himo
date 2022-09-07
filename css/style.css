@@ -68,8 +68,6 @@ body {
   padding: 100px 0 150px;
 }
 
-.container {}
-
 .bike__inner {
   display: flex;
   justify-content: space-between;
@@ -77,46 +75,24 @@ body {
 
 .bike__column-slider {
   flex-basis: 630px;
-  margin-left: 31px;
+  margin-left: 30px;
 }
-
-.bike__link {
-  background-color: #131313;
-  color: #fff;
-}
-
-.bike__column {}
 
 .bike__title {
+  font-weight: 700;
   font-size: 64px;
+  line-height: 77px;
+  margin: 60px 0 5px;
 }
 
 .bike__subtitle {
-  font-size: 32px;
+  margin: 0 0 60px;
   font-weight: 400;
-  color: #6F6F6F;
+font-size: 32px;
+line-height: 39px;
+color: #6F6F6F;
 }
 
-.bike__description {
+.bike__text {
 
-}
-
-.bike-slider {}
-
-.bike-slider__item {}
-
-.bike-specifications {
-  display: flex;
-}
-
-.spec-title {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.spec-text {
-  font-size: 12px;
-  text-align: center;
 }

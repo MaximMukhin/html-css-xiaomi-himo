@@ -120,3 +120,27 @@ margin-bottom: 20px;
 .slick-dots {
   position: absolute;
 }
+
+.slick-dots li + li {
+  padding-top: 10px;
+}
+
+.slick-dots button {
+  font-size: 0;
+  padding: 0;
+  border: none;
+  background-color: #131313;
+  width: 2px;
+  height: 25px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.slick-dots button:hover {
+  background-color: #ff4040;
+}
+
+.slick-active button {
+  background-color: #ff4040;
+}

@@ -144,3 +144,21 @@ margin-bottom: 20px;
 .slick-active button {
   background-color: #ff4040;
 }
+
+.bike__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bike__list-item {
+  font-weight: 700;
+  flex-basis: 160px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.bike__list-item span {
+  font-size: 12px;
+  font-weight: 400;
+
+}

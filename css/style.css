@@ -171,3 +171,41 @@ margin-bottom: 20px;
   line-height: 15px;
   margin: auto 0;
 }
+
+.info-list__inner {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.info-list__img {
+
+}
+
+.info-list__desc {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-list__item {
+  max-width: 490px;
+
+}
+.info-list__title {
+  margin: 0 0 10px 0;
+  font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+color: #131313;
+}
+
+.info-list__text {
+  margin: 0 0;
+  font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+color: #131313;
+}
+

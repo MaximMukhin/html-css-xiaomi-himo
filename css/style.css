@@ -218,6 +218,9 @@ body {
   max-width: 450px;
 }
 
+.specification{
+  margin-bottom: 150px;
+}
 .specification__inner {
   display: flex;
   justify-content: space-between;
@@ -264,4 +267,9 @@ line-height: 120%;
   font-weight: 400;
   font-size: 14px;
   line-height: 120%;
+}
+
+.specification__img {
+  margin-left: 60px;
+  object-fit: none;
 }

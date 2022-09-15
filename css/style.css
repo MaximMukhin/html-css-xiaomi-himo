@@ -273,8 +273,14 @@ line-height: 120%;
   margin-left: 60px;
   object-fit: none;
 }
-
 .photo-slider {
+  margin-bottom: 50px;
 }
-.photo-slider__item {
+
+.photo-slider__item .slick-dots {
+  left: 0;
+  top: 52px;
+  margin-left: -48px;
 }
+
+

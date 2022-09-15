@@ -275,12 +275,17 @@ line-height: 120%;
 }
 .photo-slider {
   margin-bottom: 50px;
+  margin-left: 95px;
+
+}
+
+.photo-slider__item{
+  max-width: 1150px;
 }
 
 .photo-slider__item .slick-dots {
-  left: 0;
+  left: -48px;
   top: 52px;
-  margin-left: -48px;
 }
 
 

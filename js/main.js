@@ -8,7 +8,7 @@ $(function(){
     autoplaySpeed: 5000,
   })
 
-  $('.photo-slider').slick({
+  $('.photo-slider__item').slick({
     arrows: false,
     dots: true,
     fade: true,

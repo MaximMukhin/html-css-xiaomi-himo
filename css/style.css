@@ -47,8 +47,6 @@ body {
   display: flex;
 }
 
-.menu__list {}
-
 .menu__item+.menu__item {
   padding-left: 10px;
 }
@@ -197,7 +195,6 @@ body {
 
 .info-list__item {
   max-width: 490px;
-
 }
 
 .info-list__title {
@@ -248,7 +245,6 @@ body {
   text-transform: uppercase;
   color: #fff;
   background-color: #131313;
-
 }
 
 .specification__wrapper {
@@ -273,19 +269,18 @@ line-height: 120%;
   margin-left: 60px;
   object-fit: none;
 }
+
 .photo-slider {
   margin-bottom: 50px;
-  margin-left: 95px;
-
 }
 
-.photo-slider__item{
-  max-width: 1150px;
+.photo-slider__item {
+padding-left: 50px;
 }
 
-.photo-slider__item .slick-dots {
-  left: -48px;
-  top: 52px;
+.photo-slider__items .slick-dots {
+  left: 0;
+  top: 0;
 }
 
 

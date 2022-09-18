@@ -215,9 +215,10 @@ body {
   max-width: 450px;
 }
 
-.specification{
+.specification {
   margin-bottom: 150px;
 }
+
 .specification__inner {
   display: flex;
   justify-content: space-between;
@@ -253,10 +254,10 @@ body {
 }
 
 .specification__specification {
-min-width: 285px;
-font-weight: 400;
-font-size: 14px;
-line-height: 120%;
+  min-width: 285px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
 }
 
 .specification__description {
@@ -275,7 +276,7 @@ line-height: 120%;
 }
 
 .photo-slider__item {
-padding-left: 50px;
+  padding-left: 50px;
 }
 
 .photo-slider__items .slick-dots {
@@ -294,17 +295,25 @@ padding-left: 50px;
 .form__title {
   margin-bottom: 40px;
   font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-text-transform: uppercase;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
 }
 
-.form__text{
+.form__text {
   max-width: 300px;
   margin-bottom: 30px;
   font-weight: 400;
-font-size: 14px;
-line-height: 120%;
+  font-size: 14px;
+  line-height: 120%;
+}
+
+.form__text-get-color {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #6F6F6F;
+  opacity: 0.5;
 }
 
 .form__input-name,
@@ -314,5 +323,62 @@ line-height: 120%;
   border-bottom: 1px solid #131313;
   padding-bottom: 10px;
   margin-bottom: 20px;
+  outline: none;
+  color: #6F6F6F;
+  opacity: 0.5;
+}
 
+.form__label-box {
+display: flex;
+margin-bottom: 50px;
+}
+
+.form__label + .form__label {
+  margin-left: 23px;
+}
+
+.form__input-radio {
+position: absolute;
+width: 1px;
+height: 1px;
+overflow: hidden;
+clip:rect(0 0 0 0);
+}
+
+.form__input-radio:checked + .form__bike {
+  display: block;
+}
+
+.form__bike {
+  display: none;
+}
+
+.form__radio-style{
+  border-radius: 30px;
+  width: 80px;
+  height: 12px;
+}
+
+.form__radio-style--grey{
+  background: #6F6F6F;
+
+}
+.form__radio-style--white{
+  background: #FFFFFF;
+  border: 1px solid #6F6F6F;
+}
+.form__radio-style--red{
+  background: #FF4040;
+}
+
+.bike__link-btn{
+  background-color: #131313;
+  color: #fff;
+  padding: 28px 81px;
+  max-width: 420px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+  text-transform: uppercase;
 }

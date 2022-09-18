@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -288,7 +292,7 @@ body {
   margin-bottom: 100px;
 }
 
-.order__inner{
+.order__inner {
   position: relative;
 }
 
@@ -338,27 +342,27 @@ body {
 }
 
 .form__label-box {
-display: flex;
-margin-bottom: 50px;
+  display: flex;
+  margin-bottom: 50px;
 }
 
-.form__label + .form__label {
+.form__label+.form__label {
   margin-left: 23px;
 }
 
 .form__input-radio {
-position: absolute;
-width: 1px;
-height: 1px;
-overflow: hidden;
-clip:rect(0 0 0 0);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
 }
 
-.form__input-radio:checked + .form__bike {
+.form__input-radio:checked+.form__bike {
   display: block;
 }
 
-.form__bike-price{
+.form__bike-price {
   font-size: 32px;
   position: absolute;
   top: 10px;
@@ -374,7 +378,7 @@ clip:rect(0 0 0 0);
   transform: translateX(-50%);
 }
 
-.form__bike-price::after{
+.form__bike-price::after {
   content: "";
   position: absolute;
   width: 220px;
@@ -391,25 +395,27 @@ clip:rect(0 0 0 0);
   right: 0;
 }
 
-.form__radio-style{
+.form__radio-style {
   border-radius: 30px;
   width: 80px;
   height: 12px;
 }
 
-.form__radio-style--grey{
+.form__radio-style--grey {
   background: #6F6F6F;
 
 }
-.form__radio-style--white{
+
+.form__radio-style--white {
   background: #FFFFFF;
   border: 1px solid #6F6F6F;
 }
-.form__radio-style--red{
+
+.form__radio-style--red {
   background: #FF4040;
 }
 
-.bike__link-btn{
+.bike__link-btn {
   background-color: #131313;
   color: #fff;
   padding: 28px 60px 28px 81px;
@@ -419,5 +425,54 @@ clip:rect(0 0 0 0);
   line-height: 24px;
   letter-spacing: 1.1em;
   text-transform: uppercase;
+  transition: all 0.5s;
 }
 
+.bike__link-btn:hover{
+  background-color: #FF4040;
+}
+
+.footer {
+  background-color: #131313;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.footer__link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: lowercase;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.footer__social-link +.footer__social-link {
+  margin-left: 28px;
+}
+
+.footer__contacts {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: lowercase;
+  color: #fff;
+}
+
+.footer__contacts-link{
+  display: flex;
+  align-items: center;
+}
+
+.footer__contacts-link + .footer__contacts-link {
+  margin-top: 10px;
+}
+
+.footer__contacts-img{
+  margin-right: 10px;
+}

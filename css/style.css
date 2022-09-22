@@ -567,6 +567,14 @@ body {
 
 }
 
+@media (max-width: 1060px) {
+
+  
+.form__bike-img {
+  width: 100%;
+}
+}
+
 @media (max-width: 990px) {
   .menu{
     margin-right: 0;

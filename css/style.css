@@ -571,7 +571,18 @@ body {
 
   
 .form__bike-img {
-  width: 100%;
+  width: 500px;
+}
+.form__bike{
+  top: 25px;
+}
+.form__bike-price {
+  font-size: 25px;
+  border: none;
+}
+
+.form__bike-price::after {
+border: none;
 }
 }
 
@@ -579,6 +590,69 @@ body {
   .menu{
     margin-right: 0;
   }
+}
+
+@media (max-width: 960px) {
+  .form__bike-img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 850px) {
+  .form__bike-img {
+    width: 350px;
+  }
+  .form__bike-price {
+    font-size: 18px;
+    border: none;
+  }
+
+  .form__bike-price::after {
+border: none;
+}
+.form__bike{
+  top: 60px;
+}
+}
+
+@media (max-width: 800px) {
+  .form{
+
+    max-width: none;
+  }
+  .form__label-box {
+    display: flex;
+    margin-bottom: 300px;
+}
+.form__bike{
+  top: 320px;
+  left: 30px;
+}
+.form__bike-price {
+  top: -10px;
+  left: 16px;
+}
+.form__text {
+  max-width: none;
+}
+.bike__link-btn{
+  max-width: none;
+  margin-top: 25px;
+  width: 100%;
+  text-align: center;
+  margin: auto 0;
+
+  display: inline-block;
+    color: #FFFFFF;
+    background-color: #131313;
+    padding: 28px 60px 28px 81px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1.1em;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
 }
 
 @media (max-width: 640px) {
@@ -643,6 +717,11 @@ body {
 }
 
 @media (max-width: 460px) {
+  .form__radio-style {
+    border-radius: 30px;
+    width: 64px;
+    height: 12px;
+}
   .specification__wrapper {
     display: flex;
     margin-bottom: 20px;
@@ -673,10 +752,43 @@ body {
   .bike__link{
     text-align: center;
     width: 100%;
+    font-size: 16px;
   }
+
+  .bike__link-btn{
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+    letter-spacing: .9em;
+    margin-top: 0;
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #131313;
+    line-height: 24px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+  }
+
 
 }
 
-@media (max-width: 340px) {
+@media (max-width: 420px) {
+  .form__bike-img {
+    width: 280px;
+  }
+  .form__bike-price {
+    font-size: 14px;
+    border: none;
+  }
 
+.form__bike{
+  top: 380px;
+  left: 16px;
+}
+
+.form__bike-price {
+  top: -80px;
+  left: 32px;
+}
 }
